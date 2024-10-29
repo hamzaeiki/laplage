@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abonnements IPTV</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+        header, footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+        main {
+            padding: 20px;
+        }
+        .plan {
+            border: 1px solid #ccc;
+            margin: 1em;
+            padding: 1em;
+            background-color: white;
+            text-align: center;
+        }
+        .plan button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .plan button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Abonnements IPTV</h1>
+    </header>
+    <main>
+        <div class="plan">
+            <h2>Plan Mensuel</h2>
+            <p>9.99€ par mois</p>
+            <button onclick="location.href='payment.html'">Acheter</button>
+        </div>
+        <div class="plan">
+            <h2>Plan Annuel</h2>
+            <p>99.99€ par an</p>
+            <button onclick="location.href='payment.html'">Acheter</button>
+        </div>
+    </main>
+    <footer>
+        &copy; 2024 Abonnements IPTV
+    </footer>
+</body>
+</html>
+
